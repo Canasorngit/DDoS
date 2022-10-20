@@ -14,8 +14,8 @@ print("DDOS tool")
 print("---------------------------------------------------------")
 ip = str(input('[+] Target IP/Website: '))
 port = int(input('[+] Target PORT: '))
-pack = int(input('[+] Packet/seconds [Max is 5000]: '))
-thread = int(input('[+] Threads [can be [800]: '))
+pack = int(input('[+] Packet/seconds [Over packet is 5000 (Dont recommend)]: '))
+thread = int(input('[+] Threads [default 800]: '))
 
 
 def start():
